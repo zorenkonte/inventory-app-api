@@ -11,4 +11,7 @@ import javax.persistence.Entity;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class UnitOfMeasure extends BaseEntity {
+    private String value;
+    //TODO Convert symbol to Enum type with enum converter (optional)
+    private String symbol;
 }

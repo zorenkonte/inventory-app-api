@@ -11,4 +11,8 @@ import javax.persistence.Entity;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class Dimension extends BaseEntity {
+    private float length;
+    private float width;
+    private float height;
+    private float diameter;
 }

@@ -11,4 +11,5 @@ import javax.persistence.Entity;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class Brand extends BaseEntity {
+    private String value;
 }

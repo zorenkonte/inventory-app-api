@@ -11,4 +11,6 @@ import javax.persistence.Entity;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class UnitOfMeasure extends BaseEntity {
+    private String value;
+    private String symbol;
 }

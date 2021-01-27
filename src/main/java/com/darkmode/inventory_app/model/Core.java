@@ -11,4 +11,8 @@ import javax.persistence.Entity;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class Core extends BaseEntity {
+    private float thickness;
+    private float diameter;
+    private float length;
+    private float weight;
 }

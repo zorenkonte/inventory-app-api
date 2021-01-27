@@ -14,7 +14,7 @@ import javax.persistence.ManyToOne;
 public class Media extends BaseEntity {
     private float parStock;
     private float reOrderLevel;
-    private String thickness;
+    private float thickness;
     @ManyToOne
     private Core core;
     @ManyToOne

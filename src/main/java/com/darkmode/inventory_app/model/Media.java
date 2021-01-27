@@ -1,13 +1,15 @@
 package com.darkmode.inventory_app.model;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
 @Data
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 public class Media extends BaseEntity {
     private float parStock;
